@@ -73,6 +73,10 @@ Because this project runs from the machine and not the browser, it cannot be dep
 
 Once the project is cloned and the dependencies downloaded, type "node index" to run the program. The program will provide you with multiple prompts to fill out, including description, picking a license, lising credits, and so forth. Fill them out with your respective information. When you're done, your new README should appear in the dist folder for you to copy and place in your own personal project. 
 
+An example of the markdown code is below: 
+
+![screenshot of markdown](/images/screenshot-markdown.png)
+
 
 ## Credits
 
@@ -80,13 +84,13 @@ The coding boot camp Professional README Guide found at https://coding-boot-camp
 The license was picked from [https://choosealicense.com/](https://choosealicense.com/).
 Other credits include: 
 Bootcamp Modules, Bootcamp Challenges, npm
-No TAs or classmates were used in the making of this challenge. Most influence was taken particualrly from Module 9. Node.js and NPM's Inquirer were also used. 
+No TAs or classmates were used in the making of this challenge. Most influence was taken particualrly from Module 9. Node.js and NPM's Inquirer were also used. Tterb's github repository for README badges found at [https://gist.github.com/tterb/982ae14a9307b80117dbf49f624ce0e8](https://gist.github.com/tterb/982ae14a9307b80117dbf49f624ce0e8) was used to get the badges.
 
 
 
 ## Contributing
 
-Other items to be added can be badges, further options for credits, ways to easily upload screenshots, a way to easily toss in the User Story and Acceptance Criteria, and a place to add features. Any other additions are certainly welcome. Just don't break anything. 
+Other items to be added can be badges, further options for credits, additional license options, ways to easily upload screenshots, a way to easily toss in the User Story and Acceptance Criteria, and a place to add features. Any other additions are certainly welcome. Just don't break anything. 
 
 
 ## Tests

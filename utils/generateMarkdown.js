@@ -1,8 +1,8 @@
 const fs = require('fs');
 
-const writeFile = fileContent => {
+const writeFile = readmeContent => {
     return new Promise((resolve, reject) => {
-      fs.writeFile('./dist/README.md', fileContent, err => {
+      fs.writeFile('./dist/README.md', readmeContent, err => {
         // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
         if (err) {
           reject(err);
@@ -21,13 +21,3 @@ const writeFile = fileContent => {
 
 
   module.exports = writeFile ;
-
-
-// // TODO: Create a function to generate markdown for README
-// function generateMarkdown(data) {
-//   return `# ${data.title}
-
-// `;
-// }
-
-// module.exports = generateMarkdown;

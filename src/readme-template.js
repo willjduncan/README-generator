@@ -1346,7 +1346,7 @@ The deployed site can be found at [${site}](${site}) .`
 
 
 
-
+//MAKE SURE TO EDIT THIS FUNCTION TO INCLUDE DEPLOYEDLINK IF THE GITHUB REPOSITORY DOES NOT ALIGN WITH THE PROJECT NAME.
 const generateReadme = templateData => {
 
     console.log(templateData);

@@ -132,19 +132,21 @@ const questions = () => {
       }
     }
   },
-  {
-    type: 'input',
-    name: 'repositoryLink',
-    message: 'Enter the GitHub repository link to your project. (Required)',
-    validate: repoInput => {
-      if (repoInput) {
-      return true;
-      } else {
-      console.log('Please enter your link!');
-      return false;
-      }
-    }
-  },
+  // REMOVED BECAUSE THIS LINK CAN BE REPLACED USING THE PROJECT NAME AND THE GITHUB USERNAME. 
+  //IF THE PROJECT NAME AND THE ROPOSITORY NAME ARE NOT THE SAME, UNCOMMENT THIS OUT AND ALTER THE README-TEMPLATE.
+  // {
+  //   type: 'input',
+  //   name: 'repositoryLink',
+  //   message: 'Enter the GitHub repository link to your project. (Required)',
+  //   validate: repoInput => {
+  //     if (repoInput) {
+  //     return true;
+  //     } else {
+  //     console.log('Please enter your link!');
+  //     return false;
+  //     }
+  //   }
+  // },
   {
     type: 'input',
     name: 'deployedLink',
