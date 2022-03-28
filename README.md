@@ -77,6 +77,10 @@ An example of the markdown code is below:
 
 ![screenshot of markdown](/images/screenshot-markdown.png)
 
+A video explaining and demonstrating the app's functionality is below:
+
+[https://drive.google.com/file/d/1S0GGCxyXe6GJ1V3R8rtoEueWn19IoZQi/view](https://drive.google.com/file/d/1S0GGCxyXe6GJ1V3R8rtoEueWn19IoZQi/view)
+
 
 ## Credits
 

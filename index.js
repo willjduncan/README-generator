@@ -205,24 +205,18 @@ const questions = () => {
 ])
 };
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-// function init() {}
-
-// Function call to initialize app
-// init();
-
-
+//Prompt user for questions
 questions()
+//then generate a template for the data collected
   .then(portfolioData => {
     return generateReadme(portfolioData);
   })
+  //then write it and place the new README in the Dist file
   .then(pageHTML => {
     console.log(pageHTML);
     return writeFile(pageHTML);
   })
+  //In case of error
   .catch(err => {
     console.log(err);
   });
